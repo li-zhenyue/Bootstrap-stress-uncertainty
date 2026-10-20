@@ -3,6 +3,10 @@ MATLAB source code for the manuscript "Reliability of Bootstrap-derived stress u
 
 Run the M-files named "figureN.m" (e.g., "figure1.m", "figure2.m") to directly reproduce the corresponding figures in the manuscript.
 
+For figures based on synthetic data, the corresponding MATLAB scripts generate the synthetic focal mechanisms as part of the plotting workflow. The generated synthetic data can therefore be obtained by running these scripts, and the data generation procedures can be examined in the source code.
+
+The stress inversion results required to reproduce Figures 7 and 8 are provided in AVB_results.mat and TYM_results.mat, respectively. These results can also be reproduced by running real_data.m.
+
 Because the seismogenic faults in the synthetic experiments are generated randomly, repeated runs of the program will not yield exactly identical results.
 
 The code was written in MATLAB R2024a.
